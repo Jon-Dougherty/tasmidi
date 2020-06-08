@@ -24,7 +24,7 @@ def _get_args():
         '--program',
         type=int,
         default=4,
-        help='MIDI program in your soundfont to use. Has no effect if the output is running running in a DAW.'
+        help='MIDI program in your soundfont to use. Has no effect if the output is running in a DAW.'
     )
     return parser.parse_args()
 
